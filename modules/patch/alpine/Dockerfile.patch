@@ -1,0 +1,7 @@
+diff --git a/4.0/alpine/Dockerfile b/4.0/alpine/Dockerfile
+index dbbf548..c993159 100644
+--- a/4.0/alpine/Dockerfile
++++ b/4.0/alpine/Dockerfile
+@@ -40 +40 @@ RUN set -ex; \
+-	make -C /usr/src/redis -j "$(nproc)"; \
++	make CFLAGS="-static" EXEEXT="-static" LDFLAGS="-I/usr/local/include/" -C /usr/src/redis -j "$(nproc)"; \
