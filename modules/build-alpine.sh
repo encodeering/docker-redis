@@ -7,6 +7,4 @@ import com.encodeering.ci.docker
 
 docker-pull "$REPOSITORY/alpine-$ARCH:3.7" "alpine:3.7"
 
-docker-patch patch "$PROJECT"
-
 docker-build "$PROJECT/4.0/alpine"
