@@ -1,3 +1,3 @@
 SCM_SOURCE=https://github.com/docker-library/redis.git
 SCM_TARGET=modules/$PROJECT
-SCM_COMMIT=f1a8498333ae3ab340b5b39fbac1d7e1dc0d628c
+SCM_COMMIT=8e1acc18156603cc3643bf22ced6069cf8be1622
