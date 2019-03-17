@@ -7,4 +7,4 @@ import com.encodeering.ci.docker
 
 ./build-${BASE}.sh
 
-docker-verify redis-server -v
+docker-verify redis-server -v | dup | contains "v=${VERSION}"
