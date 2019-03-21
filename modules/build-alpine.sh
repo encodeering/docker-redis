@@ -7,4 +7,4 @@ import com.encodeering.ci.docker
 
 docker-pull "$REPOSITORY/alpine-$ARCH:3.9" "alpine:3.9"
 
-docker-build "$PROJECT/4.0/alpine"
+docker-build "$PROJECT/$VERSION/alpine"
