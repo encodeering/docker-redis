@@ -6,14 +6,14 @@
 
 - https://hub.docker.com/r/encodeering/redis-armhf/
 
-    ```docker pull encodeering/redis-armhf:4.0-debian```  
-    ```docker pull encodeering/redis-armhf:4.0-alpine```  
     ```docker pull encodeering/redis-armhf:5.0-debian```  
-    ```docker pull encodeering/redis-armhf:5.0-alpine```
+    ```docker pull encodeering/redis-armhf:5.0-alpine```  
+    ```docker pull encodeering/redis-armhf:6.0-debian```  
+    ```docker pull encodeering/redis-armhf:6.0-alpine```
 
 - https://hub.docker.com/r/encodeering/redis-amd64/
 
-    ```docker pull encodeering/redis-amd64:4.0-debian```  
-    ```docker pull encodeering/redis-amd64:4.0-alpine```  
     ```docker pull encodeering/redis-amd64:5.0-debian```  
-    ```docker pull encodeering/redis-amd64:5.0-alpine```
+    ```docker pull encodeering/redis-amd64:5.0-alpine```  
+    ```docker pull encodeering/redis-amd64:6.0-debian```  
+    ```docker pull encodeering/redis-amd64:6.0-alpine```
