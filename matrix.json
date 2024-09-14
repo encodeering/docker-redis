@@ -4,9 +4,9 @@
     },
     "platforms": ["amd64", "armhf"],
     "pipelines": [
-        { "project": "redis", "base": "debian", "version": "5.0", "variant": "" },
-        { "project": "redis", "base": "debian", "version": "6.0", "variant": "" },
-        { "project": "redis", "base": "alpine", "version": "5.0", "variant": "" },
-        { "project": "redis", "base": "alpine", "version": "6.0", "variant": "" }
+        { "project": "redis", "base": "debian", "version": "6.2", "variant": "" },
+        { "project": "redis", "base": "debian", "version": "7.4", "variant": "" },
+        { "project": "redis", "base": "alpine", "version": "6.2", "variant": "" },
+        { "project": "redis", "base": "alpine", "version": "7.4", "variant": "" }
     ]
 }
